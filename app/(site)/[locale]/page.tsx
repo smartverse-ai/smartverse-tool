@@ -1,1 +1,3 @@
-// الصفحة الرئيسية - متعددة اللغات
+export default function HomePage() {
+  return <div>SmartVerse is live!</div>
+}
