@@ -39,7 +39,7 @@ export default function SummarizePage() {
       }
 
       setSummary(data.summary || "❌ لم يتم توليد ملخص. حاول مرة أخرى.");
-    } catch (err) {
+    } catch  {
       setError("⚠️ فشل الاتصال بالخادم.");
     } finally {
       setLoading(false);

@@ -1,11 +1,10 @@
-// ✅ /app/layout.tsx
-import "./globals.css";
+// ✅ /app/(site)/[locale]/layout.tsx
 import type { ReactNode } from "react";
 
-export default function RootLayout({ children }: { children: ReactNode }) {
-  return (
-    <html lang="ar">
-      <body>{children}</body>
-    </html>
-  );
+export default function LocaleLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
+  return <>{children}</>;
 }
